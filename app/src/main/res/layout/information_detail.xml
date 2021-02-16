@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/normal_16">
+
+    <TextView
+        android:id="@+id/information_detail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/information_detail_title"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/information_detail_name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/normal_16"
+        android:text="@string/information_detail_name_title"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/information_detail_title" />
+
+    <TextView
+        android:id="@+id/information_detail_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/small_4"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/information_detail_name_title"
+        tools:text="Get started with dropbox" />
+
+    <TextView
+        android:id="@+id/information_detail_type_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/normal_16"
+        android:text="@string/information_detail_type_title"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/information_detail_name_text" />
+
+    <TextView
+        android:id="@+id/information_detail_type_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/small_4"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/information_detail_type_title"
+        tools:text="Pdf" />
+
+    <TextView
+        android:id="@+id/information_detail_modification_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/normal_16"
+        android:text="@string/information_detail_modification_title"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/information_detail_type_text" />
+
+    <TextView
+        android:id="@+id/information_detail_modification_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/small_4"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/information_detail_modification_title"
+        tools:text="Monday, february 15. 2021" />
+
+
+    <TextView
+        android:id="@+id/information_detail_size_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/normal_16"
+        android:text="@string/information_detail_size_title"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/information_detail_modification_text" />
+
+    <TextView
+        android:id="@+id/information_detail_size_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/small_4"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/information_detail_size_title"
+        tools:text="220" />
+
+    <TextView
+        android:id="@+id/information_detail_location_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/normal_16"
+        android:text="@string/information_detail_location_title"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/information_detail_size_text" />
+
+    <TextView
+        android:id="@+id/information_detail_location_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/small_4"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/information_detail_location_title"
+        tools:text="Home/test" />
+
+
+    <TextView
+        android:id="@+id/information_detail_downloadable_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/normal_16"
+        android:text="@string/information_detail_downloadable_title"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/information_detail_location_text" />
+
+    <TextView
+        android:id="@+id/information_detail_downloadable_text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/small_4"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/information_detail_downloadable_title"
+        tools:text="Yes" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

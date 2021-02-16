@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/login_activity_tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/normal_24"
+        android:text="@string/login_activity_title"
+        android:textSize="24sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/login_activity_lottie_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/large_48"
+        app:layout_constraintBottom_toTopOf="@id/login_activity_body_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_activity_tittle"
+        app:layout_constraintVertical_bias="0.4"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/login" />
+
+    <TextView
+        android:id="@+id/login_activity_body_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/normal_16"
+        android:layout_marginBottom="@dimen/large_72"
+        android:gravity="center"
+        android:text="@string/login_activity_body"
+        app:layout_constraintBottom_toTopOf="@id/login_activity_login_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/login_activity_login_button"
+        style="@style/rounded_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/large_48"
+        android:text="@string/login_activity_button_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/login_activity_lottie_button_loading"
+        android:layout_width="@dimen/large_52"
+        android:layout_height="@dimen/large_48"
+        app:layout_constraintBottom_toBottomOf="@id/login_activity_login_button"
+        app:layout_constraintEnd_toEndOf="@id/login_activity_login_button"
+        app:layout_constraintStart_toStartOf="@id/login_activity_login_button"
+        app:layout_constraintTop_toTopOf="@id/login_activity_login_button"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/white_dots" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

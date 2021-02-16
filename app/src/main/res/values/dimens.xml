@@ -1,0 +1,52 @@
+<resources>
+    <!-- Small dimens -->
+    <dimen name="no_dimen">0dp</dimen>
+    <dimen name="small_1">1dp</dimen>
+    <dimen name="small_2">2dp</dimen>
+    <dimen name="small_3">3dp</dimen>
+    <dimen name="small_4">4dp</dimen>
+    <dimen name="small_6">6dp</dimen>
+    <dimen name="small_8">8dp</dimen>
+    <dimen name="small_10">10dp</dimen>
+    <dimen name="small_12">12dp</dimen>
+    <dimen name="small_13">14dp</dimen>
+    <dimen name="small_14">14dp</dimen>
+
+    <!-- Normal dimens -->
+    <dimen name="normal_16">16dp</dimen>
+    <dimen name="normal_18">18dp</dimen>
+    <dimen name="normal_19">19dp</dimen>
+    <dimen name="normal_20">20dp</dimen>
+    <dimen name="normal_22">22dp</dimen>
+    <dimen name="normal_24">24dp</dimen>
+    <dimen name="normal_28">28dp</dimen>
+    <dimen name="normal_30">30dp</dimen>
+    <dimen name="normal_32">32dp</dimen>
+    <dimen name="normal_36">36dp</dimen>
+    <dimen name="normal_40">40dp</dimen>
+
+    <!-- Large dimens -->
+    <dimen name="large_46">46dp</dimen>
+    <dimen name="large_48">48dp</dimen>
+    <dimen name="large_52">52dp</dimen>
+    <dimen name="large_53">53dp</dimen>
+    <dimen name="large_58">58dp</dimen>
+    <dimen name="large_60">60dp</dimen>
+    <dimen name="large_66">66dp</dimen>
+    <dimen name="large_70">70dp</dimen>
+    <dimen name="large_62">62dp</dimen>
+    <dimen name="large_72">72dp</dimen>
+    <dimen name="large_76">76dp</dimen>
+    <dimen name="large_84">84dp</dimen>
+
+    <!-- Extra large dimens -->
+    <dimen name="extra_large_92">92dp</dimen>
+    <dimen name="extra_large_100">100dp</dimen>
+    <dimen name="extra_large_110">110dp</dimen>
+    <dimen name="extra_large_120">120dp</dimen>
+    <dimen name="extra_large_130">130dp</dimen>
+    <dimen name="extra_large_150">150dp</dimen>
+    <dimen name="extra_large_200">200dp</dimen>
+    <dimen name="extra_large_250">250dp</dimen>
+    <dimen name="extra_large_280">280dp</dimen>
+</resources>

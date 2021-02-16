@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO Change this by your app key and secret key -->
+    <string name="dropbox_app_key" translatable="false">fbuwfoa5266aedw</string>
+    <string name="dropbox_app_secret" translatable="false">1cbsvdxfbem30lg</string>
+</resources>
